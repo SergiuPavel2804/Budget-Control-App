@@ -26,5 +26,5 @@ Forecast of the next electrical bill
 <img src="Media/Forecast.jpeg" alt="Home Screen" width="350" height="700">
 
 # TO RUN
-In order to run, you must install Android Studio, XAMPP Control Panel, start Apache and MySQL and change the IpV4 Adress of the localhost into your adress
+In order to run, you must install Android Studio, XAMPP Control Panel, start Apache and MySQL and change the Root URL with your IPV4 adress at DBConstants.java
 

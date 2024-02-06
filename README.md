@@ -3,7 +3,7 @@ A mobile application developed in Android Studio with Java for frontend, PHP for
 
 Home Screen
 
-<img src="HomeScreen.jpg" alt="Home Screen" width="350" height="600">
+<img src="Media/HomeScreen.jpg" alt="Home Screen" width="350" height="600">
 
 User Validation
 

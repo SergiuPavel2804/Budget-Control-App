@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Aplicatie_Licenta</string>
+    <string name="signIn">Sign in</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="orsSignInWith">or sign in with</string>
+    <string name="signOut">Sign out</string>
+    <string name="dontHaveAcc">Don\'t have an account?</string>
+    <string name="register">Register here</string>
+    <string name="email">Email</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last name</string>
+    <string name="adress">Adress</string>
+    <string name="phoneNumber">Telephone</string>
+    <string name="signUp">Sign Up</string>
+    <string name="registerOnPage">Register</string>
+    <string name="products">Products</string>
+    <string name="productsDescription"> \u0009\u0009 See the items from your properties here. You can find your desired products and list them into one of your estates. </string>
+    <string name="reports">Reports</string>
+    <string name="reportsDescription"> \u0009\u0009 View the reports we have written you based on your input data. Organize them by week, month or year.</string>
+    <string name="graphs">Graphs</string>
+    <string name="graphsDescription"> \u0009\u0009 Create a graph detailing your energy consumption and prices. Visualize your data and improve the electricity usage in your properties.</string>
+    <string name="dataAnalysis">Data Analysis</string>
+    <string name="dataAnDescription"> \u0009\u0009 The output of your charts is taken into consideration and used for predictions of forthcoming price changes.</string>
+    <string name="addProperty"> Add a property</string>
+    <string name="fillPropertyName"> Name of property</string>
+    <string name="addPropertyButton"> Add</string>
+    <string name="deleteIcon">Delete</string>
+    <string name="alertDialogTitle">Are you sure?</string>
+    <string name="alertDialogDescription">You want to delete the selected items</string>
+    <string name="editIcon">Edit</string>
+    <string name="editProperty">Edit your property</string>
+    <string name="myProperty">My property</string>
+    <string name="market">Market</string>
+    <string name="lightBulb">Bec LED Philips, E27, 13W (90W), 1450 lm, lumina naturala rece (6500K), clasa energetica F</string>
+    <string name="inStock">In stock</string>
+    <string name="outOfStock">Out of stock</string>
+    <string name="priceForLightBulb">12,49 RON</string>
+    <string name="numberPicker0">1</string>
+    <string name="numberPickerIncrease">+</string>
+    <string name="numberPickerDecrease">-</string>
+    <string name="boughtQuantity">1x</string>
+    <string name="queryHint">Type here to search</string>
+    <string name="forecasts">Forecasts</string>
+    <string name="selectHint">Select a property from the grid below </string>
+    <string name="enelEnergy">Enel</string>
+    <string name="novaEnergy">Nova Power &amp; Gas</string>
+    <string name="hidroelectricaEnergy">Hidroelectrica</string>
+    <string name="chooseProvider">Please choose your energy provider</string>
+    <string name="saveButton">Save</string>
+    <string name="productName">Laptop Gaming Lenovo IdeaPad 3</string>
+    <string name="numberOfHours">Fill in the time of use</string>
+    <string name="reportName">Fill in the name of the report</string>
+    <string name="createReportAlert">You finished this report</string>
+    <string name="myPropertyIdExample">Biruintei</string>
+    <string name="propertyName">Property: </string>
+    <string name="reportNameExample">Report: </string>
+    <string name="supplierName">Supplier: </string>
+    <string name="valueName">Invoice: </string>
+    <string name="noData">Not enough data available</string>
+    <string name="barChartTitle">Cost of electricity per month</string>
+    <string name="forecastTitle">Forecast for the following month</string>
+
+    <string-array name="propertyTypes">
+        <item>Apartment</item>
+        <item>House</item>
+        <item>Headquarters</item>
+        <item>Subsidiary</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

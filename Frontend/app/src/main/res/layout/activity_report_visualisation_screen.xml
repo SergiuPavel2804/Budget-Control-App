@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ReportVisualisationScreen">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChartCategories"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pieChartCategories">
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:background="@drawable/layout_rounded">
+
+            <TextView
+                android:id="@+id/tvPropertyExample"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="32.5dp"
+                android:layout_toEndOf="@+id/propertyExampleImage"
+                android:text="@string/propertyName"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/propertyExampleImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@drawable/electric_appliance" />
+
+            <TextView
+                android:id="@+id/tvPropertyNameOnReport"
+                android:layout_width="125dp"
+                android:layout_height="55dp"
+                android:gravity="top"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/tvPropertyExample"
+                android:layout_alignParentBottom="true"
+                android:text="@string/myPropertyIdExample"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/layout_rounded">
+
+            <TextView
+                android:id="@+id/tvReportExample"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="32.5dp"
+                android:layout_toEndOf="@+id/reportExampleImage"
+                android:text="@string/reportNameExample"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/reportExampleImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@drawable/seo_report" />
+
+            <TextView
+                android:id="@+id/tvReportNameOnReport"
+                android:layout_width="125dp"
+                android:layout_height="55dp"
+                android:gravity="top"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/tvReportExample"
+                android:layout_alignParentBottom="true"
+                android:text="@string/myPropertyIdExample"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/layout_rounded">
+
+            <TextView
+                android:id="@+id/tvSupplierExample"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="32.5dp"
+                android:layout_toEndOf="@+id/supplierImage"
+                android:text="@string/supplierName"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/supplierImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@drawable/manufacture" />
+
+            <TextView
+                android:id="@+id/tvSupplierOnReport"
+                android:layout_width="125dp"
+                android:layout_height="55dp"
+                android:gravity="top"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/tvSupplierExample"
+                android:layout_alignParentBottom="true"
+                android:text="@string/myPropertyIdExample"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/layout_rounded">
+
+            <TextView
+                android:id="@+id/tvValueExample"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="32.5dp"
+                android:layout_toEndOf="@+id/valueImage"
+                android:text="@string/valueName"
+                android:textSize="18sp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/valueImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@drawable/money" />
+
+            <TextView
+                android:id="@+id/tvValueOnReport"
+                android:layout_width="125dp"
+                android:layout_height="55dp"
+                android:gravity="top"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/tvValueExample"
+                android:layout_alignParentBottom="true"
+                android:text="@string/myPropertyIdExample"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
